@@ -10,12 +10,12 @@ import (
 	"strings"
 
 	mobiledetect "github.com/Shaked/gomobiledetect"
+	"github.com/conku/admin"
+	"github.com/conku/assetfs"
+	"github.com/conku/qor"
+	"github.com/conku/qor/resource"
+	"github.com/conku/serializable_meta"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/assetfs"
-	"github.com/qor/qor"
-	"github.com/qor/qor/resource"
-	"github.com/qor/serializable_meta"
 )
 
 var (
@@ -84,7 +84,7 @@ type configurePlatform struct {
 }
 
 func init() {
-	admin.RegisterViewPath("github.com/qor/banner_editor/views")
+	admin.RegisterViewPath("github.com/conku/banner_editor/views")
 }
 
 // RegisterElement register a element

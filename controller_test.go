@@ -11,15 +11,15 @@ import (
 	"testing"
 	"time"
 
+	"github.com/conku/admin"
+	"github.com/conku/banner_editor/test/config/bindatafs"
+	"github.com/conku/media"
+	"github.com/conku/media/media_library"
+	"github.com/conku/qor"
+	"github.com/conku/qor/test/utils"
+	qor_utils "github.com/conku/qor/utils"
 	"github.com/fatih/color"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/banner_editor/test/config/bindatafs"
-	"github.com/qor/media"
-	"github.com/qor/media/media_library"
-	"github.com/qor/qor"
-	"github.com/qor/qor/test/utils"
-	qor_utils "github.com/qor/qor/utils"
 )
 
 var (
@@ -60,7 +60,7 @@ func init() {
 	buttonRes := Admin.NewResource(&buttonSetting{})
 	buttonRes.Meta(&admin.Meta{Name: "Text"})
 	buttonRes.Meta(&admin.Meta{Name: "Link"})
-	RegisterViewPath("github.com/qor/banner_editor/test/views")
+	RegisterViewPath("github.com/conku/banner_editor/test/views")
 
 	RegisterElement(&Element{
 		Name:     "Sub Header",

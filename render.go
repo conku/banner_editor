@@ -5,8 +5,8 @@ import (
 	"html/template"
 	"path/filepath"
 
-	"github.com/qor/assetfs"
-	"github.com/qor/qor/utils"
+	"github.com/conku/assetfs"
+	"github.com/conku/qor/utils"
 )
 
 // SetAssetFS set asset fs for render
