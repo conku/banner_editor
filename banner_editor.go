@@ -210,7 +210,7 @@ func GetElement(name string) *Element {
 }
 
 // GetID return setting ID
-func (setting QorBannerEditorSetting) GetID() uint {
+func (setting QorBannerEditorSetting) GetID() int64 {
 	return setting.ID
 }
 
