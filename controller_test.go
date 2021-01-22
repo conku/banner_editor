@@ -13,13 +13,13 @@ import (
 
 	"github.com/conku/admin"
 	"github.com/conku/banner_editor/test/config/bindatafs"
+	"github.com/conku/gorm"
 	"github.com/conku/media"
 	"github.com/conku/media/media_library"
 	"github.com/conku/qor"
 	"github.com/conku/qor/test/utils"
 	qor_utils "github.com/conku/qor/utils"
 	"github.com/fatih/color"
-	"github.com/jinzhu/gorm"
 )
 
 var (

@@ -12,10 +12,10 @@ import (
 	mobiledetect "github.com/Shaked/gomobiledetect"
 	"github.com/conku/admin"
 	"github.com/conku/assetfs"
+	"github.com/conku/gorm"
 	"github.com/conku/qor"
 	"github.com/conku/qor/resource"
 	"github.com/conku/serializable_meta"
-	"github.com/jinzhu/gorm"
 )
 
 var (
